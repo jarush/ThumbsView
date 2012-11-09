@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		68396908164DBED1009CF084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68396907164DBED1009CF084 /* Foundation.framework */; };
-		6839690D164DBED1009CF084 /* ThumbsView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6839690C164DBED1009CF084 /* ThumbsView.h */; };
-		6839690F164DBED1009CF084 /* ThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6839690E164DBED1009CF084 /* ThumbsView.m */; };
+		6839691F164DBEE7009CF084 /* ThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6839691A164DBEE7009CF084 /* ThumbsView.m */; };
+		68396920164DBEE7009CF084 /* ThumbsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6839691C164DBEE7009CF084 /* ThumbsViewCell.m */; };
+		68396921164DBEE7009CF084 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6839691E164DBEE7009CF084 /* ThumbsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +20,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				6839690D164DBED1009CF084 /* ThumbsView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +29,12 @@
 		68396904164DBED1009CF084 /* libThumbsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThumbsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68396907164DBED1009CF084 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6839690B164DBED1009CF084 /* ThumbsView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThumbsView-Prefix.pch"; sourceTree = "<group>"; };
-		6839690C164DBED1009CF084 /* ThumbsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbsView.h; sourceTree = "<group>"; };
-		6839690E164DBED1009CF084 /* ThumbsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbsView.m; sourceTree = "<group>"; };
+		68396919164DBEE7009CF084 /* ThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsView.h; sourceTree = "<group>"; };
+		6839691A164DBEE7009CF084 /* ThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsView.m; sourceTree = "<group>"; };
+		6839691B164DBEE7009CF084 /* ThumbsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewCell.h; sourceTree = "<group>"; };
+		6839691C164DBEE7009CF084 /* ThumbsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewCell.m; sourceTree = "<group>"; };
+		6839691D164DBEE7009CF084 /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		6839691E164DBEE7009CF084 /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +77,12 @@
 		68396909164DBED1009CF084 /* ThumbsView */ = {
 			isa = PBXGroup;
 			children = (
-				6839690C164DBED1009CF084 /* ThumbsView.h */,
-				6839690E164DBED1009CF084 /* ThumbsView.m */,
+				68396919164DBEE7009CF084 /* ThumbsView.h */,
+				6839691A164DBEE7009CF084 /* ThumbsView.m */,
+				6839691B164DBEE7009CF084 /* ThumbsViewCell.h */,
+				6839691C164DBEE7009CF084 /* ThumbsViewCell.m */,
+				6839691D164DBEE7009CF084 /* ThumbsViewController.h */,
+				6839691E164DBEE7009CF084 /* ThumbsViewController.m */,
 				6839690A164DBED1009CF084 /* Supporting Files */,
 			);
 			path = ThumbsView;
@@ -139,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6839690F164DBED1009CF084 /* ThumbsView.m in Sources */,
+				6839691F164DBEE7009CF084 /* ThumbsView.m in Sources */,
+				68396920164DBEE7009CF084 /* ThumbsViewCell.m in Sources */,
+				68396921164DBEE7009CF084 /* ThumbsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +244,7 @@
 				68396914164DBED1009CF084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
