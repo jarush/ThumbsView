@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68396908164DBED1009CF084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68396907164DBED1009CF084 /* Foundation.framework */; };
+		6839690D164DBED1009CF084 /* ThumbsView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6839690C164DBED1009CF084 /* ThumbsView.h */; };
+		6839690F164DBED1009CF084 /* ThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6839690E164DBED1009CF084 /* ThumbsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68396902164DBED1009CF084 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				6839690D164DBED1009CF084 /* ThumbsView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68396904164DBED1009CF084 /* libThumbsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThumbsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68396907164DBED1009CF084 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6839690B164DBED1009CF084 /* ThumbsView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThumbsView-Prefix.pch"; sourceTree = "<group>"; };
+		6839690C164DBED1009CF084 /* ThumbsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbsView.h; sourceTree = "<group>"; };
+		6839690E164DBED1009CF084 /* ThumbsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68396901164DBED1009CF084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68396908164DBED1009CF084 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683968F9164DBED1009CF084 = {
+			isa = PBXGroup;
+			children = (
+				68396909164DBED1009CF084 /* ThumbsView */,
+				68396906164DBED1009CF084 /* Frameworks */,
+				68396905164DBED1009CF084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68396905164DBED1009CF084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68396904164DBED1009CF084 /* libThumbsView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68396906164DBED1009CF084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68396907164DBED1009CF084 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68396909164DBED1009CF084 /* ThumbsView */ = {
+			isa = PBXGroup;
+			children = (
+				6839690C164DBED1009CF084 /* ThumbsView.h */,
+				6839690E164DBED1009CF084 /* ThumbsView.m */,
+				6839690A164DBED1009CF084 /* Supporting Files */,
+			);
+			path = ThumbsView;
+			sourceTree = "<group>";
+		};
+		6839690A164DBED1009CF084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6839690B164DBED1009CF084 /* ThumbsView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68396903164DBED1009CF084 /* ThumbsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68396912164DBED1009CF084 /* Build configuration list for PBXNativeTarget "ThumbsView" */;
+			buildPhases = (
+				68396900164DBED1009CF084 /* Sources */,
+				68396901164DBED1009CF084 /* Frameworks */,
+				68396902164DBED1009CF084 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThumbsView;
+			productName = ThumbsView;
+			productReference = 68396904164DBED1009CF084 /* libThumbsView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683968FB164DBED1009CF084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Fizzawizza;
+			};
+			buildConfigurationList = 683968FE164DBED1009CF084 /* Build configuration list for PBXProject "ThumbsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 683968F9164DBED1009CF084;
+			productRefGroup = 68396905164DBED1009CF084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68396903164DBED1009CF084 /* ThumbsView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68396900164DBED1009CF084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6839690F164DBED1009CF084 /* ThumbsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68396910164DBED1009CF084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68396911164DBED1009CF084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68396913164DBED1009CF084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ThumbsView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThumbsView/ThumbsView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68396914164DBED1009CF084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ThumbsView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThumbsView/ThumbsView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683968FE164DBED1009CF084 /* Build configuration list for PBXProject "ThumbsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68396910164DBED1009CF084 /* Debug */,
+				68396911164DBED1009CF084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68396912164DBED1009CF084 /* Build configuration list for PBXNativeTarget "ThumbsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68396913164DBED1009CF084 /* Debug */,
+				68396914164DBED1009CF084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683968FB164DBED1009CF084 /* Project object */;
+}
